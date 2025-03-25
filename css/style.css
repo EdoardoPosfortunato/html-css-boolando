@@ -96,6 +96,7 @@ color: inherit;
 
 .vetrine{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: var(--card-gap);
     padding-top: 130px;
@@ -187,7 +188,38 @@ color: inherit;
 del{
     color: black;
 }
+
+/* footer */
+
+footer{
+    height: 90px;
+    background-color: rgb(46, 44, 41);
+}
+
+.footer{
+    /* background-color: aqua; */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+.footer-itm ul{
+    margin-top: 5px;
+    color: white;
+}
+
+.footer-itm ul li{
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+
 /* hoover */
+
+
 
 .card:hover .second-img{
     z-index: 2;
