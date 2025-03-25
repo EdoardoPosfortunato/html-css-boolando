@@ -50,3 +50,24 @@ color: inherit;
     border: 1px solid rgb(218, 11, 11);
     background-color: white;
 }
+
+.main-img{
+    position: absolute;
+    z-index: 1;
+}
+
+.second-img{
+    position: absolute;
+}
+
+.card:hover .second-img{
+    z-index: 2;
+}
+
+
+/* hoover */
+
+.second-img{
+
+
+}
