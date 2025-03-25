@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+.container {
+    width: 80%;
+    margin: 0 auto;
+} 
+    
+img {
+ max-width: 100%;
+ 
+}
+    
+ul {
+list-style: none; 
+}
+    
+a{
+color: inherit;
+}
+
+/* root */
+
+:root{
+    --card-gap: 10px;
+}
+
+
+/* main */
+
+.vetrine{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--card-gap);
+    margin-top: 50px;
+    /* debug */
+    background-color: aqua;
+    border: 1px black solid;
+}
+
+.card{
+    width: calc((100% - ((var(--card-gap))*2))/3);
+    position: relative;
+
+    /* debug */
+    height: 400px;
+    border: 1px solid rgb(218, 11, 11);
+    background-color: white;
+}
