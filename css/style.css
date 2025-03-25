@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
 .container {
@@ -45,6 +46,7 @@ color: inherit;
     width: calc((100% - ((var(--card-gap))*2))/3);
     position: relative;
     height: 500px;
+    padding-bottom: 10px;
     /* debug */
     border: 1px solid rgb(218, 11, 11);
     background-color: white;
@@ -52,7 +54,9 @@ color: inherit;
 
 .pricetag{
     position: absolute;
-    bottom: 0;
+    bottom: 2%;
+    display: inline-block;
+    line-height: 1.2;
 }
 
 .img{
@@ -98,6 +102,25 @@ color: inherit;
     padding: 4px 7px;
     bottom: 19%;
     left: 13%;
+}
+
+.little{
+    display: inline-block;
+    font-size:0.8rem;
+}
+
+.title{
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+.price{
+    color: red;
+    font-size: 0.7rem;
+}
+
+del{
+    color: black;
 }
 /* hoover */
 
