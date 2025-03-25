@@ -8,6 +8,7 @@
 .container {
     width: 80%;
     margin: 0 auto;
+    min-width: 1200px;
 } 
     
 img {
@@ -108,7 +109,8 @@ color: inherit;
 .card{
     width: calc((100% - ((var(--card-gap))*2))/3);
     position: relative;
-    height: 500px;
+    height: 600px;
+    width: 400px;
     padding-bottom: 10px;
     /* debug */
     /* border: 1px solid rgb(218, 11, 11);
