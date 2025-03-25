@@ -24,7 +24,7 @@ color: inherit;
 /* root */
 
 :root{
-    --card-gap: 10px;
+    --card-gap: 20px;
 }
 
 
@@ -44,9 +44,6 @@ color: inherit;
 .card{
     width: calc((100% - ((var(--card-gap))*2))/3);
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     height: 500px;
     /* debug */
     border: 1px solid rgb(218, 11, 11);
@@ -71,14 +68,43 @@ color: inherit;
     position: absolute;
 }
 
+.heart{
+    background-color: white;
+    position: absolute;
+    z-index: 5;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    top: 2%;
+    right: 0;
+}
+
+.discount{
+    background-color: rgb(241, 8, 8);
+    color: white;
+    position: absolute;
+    z-index: 5;
+    font-size: 0.5rem;
+    padding: 4px 7px;
+    bottom: 19%;
+    left: 0;
+}
+
+.sostenibility{
+    background-color: rgb(14, 128, 4);
+    color: white;
+    position: absolute;
+    z-index: 5;
+    font-size: 0.5rem;
+    padding: 4px 7px;
+    bottom: 19%;
+    left: 13%;
+}
+/* hoover */
+
 .card:hover .second-img{
     z-index: 2;
 }
 
-
-/* hoover */
-
-.second-img{
-
-
+.card:hover .heart{
+    color: red;
 }
